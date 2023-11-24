@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Зробить контейнер на весь екран */
+  }
+  
+  img {
+    max-width: 100%; /* Робить зображення адаптивним */
+    height: auto; /* Зберігає пропорції зображення */
+    border: 2px solid #333; /* Приклад границі для зображення */
+    border-radius: 8px; /* Приклад закруглення кутів для зображення */
+  }
+  

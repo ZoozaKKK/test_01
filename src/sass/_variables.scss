@@ -4,3 +4,12 @@ $desktop: "1200px";
 $backgroundcolor: #000;
 $mainFontColor: #fff;
 $btnColor: #ffa800;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  header, main, footer {
+    height: 100vh;
+  }
