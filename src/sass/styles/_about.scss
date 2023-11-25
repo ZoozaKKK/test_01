@@ -1,0 +1,38 @@
+
+.student-container {
+    
+    max-width: 1200px; 
+    margin: 0 auto;  
+    padding: 20px;    
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  
+    .about {
+      & h2 {
+        margin-top: 100px
+      }
+  
+      & p {
+
+      }
+    }
+  
+    .hideText {
+    
+      height: clamp(80px, 5.5vw, 130px);
+    }
+  
+    .showText {
+      
+      height: calc(388px - 35vw);
+    }
+  
+    .about__moreBtn {
+      
+    }
+  
+    .about__btn {
+      margin-right: auto;
+    }
+  }
+  
